@@ -8,7 +8,7 @@ import (
 func main() {
 	serverOpts := &plugin.ServeOpts{
 		ProviderFunc: func() terraform.ResourceProvider {
-			return interna()
+			return Provider()
 		},
 	}
 	plugin.Serve(serverOpts)
