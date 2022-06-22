@@ -10,6 +10,10 @@ func ResourceServer() *schema.Resource {
 		Delete: resourceServerDelete,
 
 		Schema: map[string]*schema.Schema{
+			"pid": {
+				Type:     schema.TypeString,
+				Required: true,
+			},
 			"name": {
 				Type:     schema.TypeString,
 				Required: true,
