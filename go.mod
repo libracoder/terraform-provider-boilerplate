@@ -1,4 +1,4 @@
-module github.com/libracoder/terraform-provider-biolerplate
+module github.com/libracoder/terraform-provider-boilerplate
 
 go 1.18
 

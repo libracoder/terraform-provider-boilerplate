@@ -5,7 +5,7 @@ import (
 )
 
 func resourceServerCreate(d *schema.ResourceData, m interface{}) error {
-	person := d.Get("person").(string)
+	person := d.Get("name").(string)
 
 	d.SetId(person)
 
